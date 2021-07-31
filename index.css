@@ -1,0 +1,21 @@
+/* odd, even, nth */
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li:nth-child(4n - 11) {
+    background-color: gold;
+}
+
+ li:nth-child(4n - 14) {
+    background-color: purple;
+}
+
+li:nth-child(4n - 17) {
+    background-color: #cd7f32;
+}
+
+li:nth-child(4n - 20) {
+    background-color: red;
+}
